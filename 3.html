@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>흥미 및 취미</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 0;
+      }
+      h1 {
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        margin: 0px;
+      }
+      ol {
+        border-right: 2px solid black;
+        width: 120px;
+        margin: 0px;
+        padding: 30px;
+      }
+      #grid_3 {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JS_Color.js"></script>  
+  </head>
+  <body>
+    <h1><a href="index.html">메인으로 되돌아가기</a>
+    <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);"></h1>
+    <div id="grid_3">
+      <ol>
+        <li><a href="1.html">경력 및 과거</a></li>
+        <li><a href="2.html">거주지</a></li>
+        <li><a href="3.html">흥미 및 취미</a></li>
+      </ol>
+      <div id="article">
+        <h2>흥미 및 취미</h2>
+        <p>
+          고등학교 시절부터 공학에 관심이 많았으며, 고등학교에서 배운 3D 모델링을
+          통해 3D 프린팅을 취미로 즐기며, 전기 및 전자공학에 관심이 많아<br />
+          평소에 Soldering 및 Desoldering을 통한 노트북 수리 등등 각종 전자 기기
+          수리를 통한 납땜을 좋아합니다.<br />
+          최근 컴퓨터 정보과에 입학하면서 임베디드 컴퓨터, 즉 아두이노에 관심이
+          생겨 아두이노를 직접 설계하여 MCU 납땜, 3D 프린팅을 활용하여 로봇 팔
+          프로젝트를 직접 코딩하여 만들어보는 계획을 세우고 있습니다.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index</title>
+    <meta charset="utf-8" />
+    <style>
+      body{
+        margin: 0;
+      }
+      h1 {
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        margin:0px;
+      }
+      ol {
+        border-right:2px solid black ;
+        width: 120px;
+        margin: 0px;
+        padding: 30px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JS_Color.js"></script>
+  </head>
+  <body>
+    <h1><a href="index.html">웹기초 과제</a>
+    <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);"></h1>
+  <div id="grid">  
+    <ol>
+      <li><a href="1.html" class="saw">경력 및 과거</a></li>
+      <li><a href="2.html" class="saw" id="active">거주지</a></li>
+      <li><a href="3.html">흥미 및 취미</a></li>
+    </ol>
+    <div id="article">
+      <h2>자기소개</h2>
+      <p>안녕하십니까 저는 인천재능대생 컴퓨터 정보과 1학년 이동준 입니다.</p>
+    </div>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>거주지</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 0;
+      }
+      h1 {
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        margin: 0px;
+      }
+      ol {
+        border-right: 2px solid black;
+        width: 120px;
+        margin: 0px;
+        padding: 30px;
+      }
+      #grid_2 {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JS_Color.js"></script>
+  </head>
+  <body>
+    <h1><a href="index.html">메인으로 되돌아가기</a>
+    <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);"></h1>
+    <div id="grid_2">
+      <ol>
+        <li><a href="1.html">경력 및 과거</a></li>
+        <li><a href="2.html">거주지</a></li>
+        <li><a href="3.html">흥미 및 취미</a></li>
+      </ol>
+      <div id="article">
+        <h2>거주지</h2>
+        <p>
+          경기도 군포시 산본동에서 태어났으며, 중간에 용인, 서울특별시 금천구로
+          이사하였다가<br />
+          최근 경기도 군포시 금정동으로 이사하였다.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
+

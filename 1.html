@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>경력 및 과거</title>
+    <meta charset="utf-8" />
+    <style>
+      body {
+        margin: 0;
+      }
+      h1 {
+        border-bottom: 2px solid black;
+        padding-bottom: 10px;
+        margin: 0px;
+      }
+      ol {
+        border-right: 2px solid black;
+        width: 120px;
+        margin: 0px;
+        padding: 30px;
+      }
+      #grid_1 {
+        display: grid;
+        grid-template-columns: 200px 1fr;
+      }
+      img {
+        width: 50%;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="JS_Color.js"></script>
+  </head>
+  <body>
+    <h1><a href="index.html">메인으로 되돌아가기</a>
+    <input id="night_day" type="button" value="night" onclick="nightDayHandler(this);"></h1>
+    <div id="grid_1">
+      <ol>
+        <li><a href="1.html">경력 및 과거</a></li>
+        <li><a href="2.html">거주지</a></li>
+        <li><a href="3.html">흥미 및 취미</a></li>
+      </ol>
+      <div id="article">
+        <h2>경력 및 과거</h2>
+        <p>
+          서울공업 고등학교에 입학하여 입학하자마자 메카트로닉스 기능생 생활
+          시작,<br />
+          전기&전자/기계 장치 제어기술을 주말,밤,낮 없이 훈련하였으며,<br />
+          2학년 부터는 자동화 제어 분야 기업체에서 일하며 일학습병행제를
+          수행했다.<br />
+          졸업 이후에는 전장분야를 프리랜서 엔지니어 형식으로 일하며 성장하던
+          도중,<br />
+          "족저근막염" 이라는 지병이 심해져 앉아서 근무 할 수 있는 S/W를 공부하고자
+          컴퓨터학과에 입학하게 되었다.
+        </p>
+        <img src="1593249166751.jpg" />
+        <img src="20211217_111559.jpg" />
+      </div>
+    </div>
+  </body>
+</html>
+
